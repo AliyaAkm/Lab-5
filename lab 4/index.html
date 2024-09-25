@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-nav .nav-link {
+            color: #555 !important;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing-plans.html">Pricing Plans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="progress-bar.html">Progress</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+                <img src="https://cdn.ast.ru/v2/AST000000000130381/COVER/cover1__w220.jpg" class="card-img-top img-fluid" alt="Portfolio 1">
+                <div class="card-body">
+                    <h5 class="card-title">О дивный мир</h5>
+                    <p class="card-text">"О дивный новый мир" – антиутопический роман Олдоса Хаксли, представляющий общество будущего, где технологии и контроль подавляют человеческие чувства и индивидуальность.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+                <img src="https://cdn.respublica.ru/uploads/00/00/00/24/di/b70c2dc3855dc4be.jpg?1435745412" class="card-img-top img-fluid" alt="Portfolio 2">
+                <div class="card-body">
+                    <h5 class="card-title">Гордость и предубеждение</h5>
+                    <p class="card-text">"Гордость и предубеждение" – роман Джейн Остин о любви и социальных предрассудках, раскрывающий внутренний мир героев на фоне английской аристократии XIX века.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/9605654/pub_6432744997eaec6049ce9065_6432752f9e8c8d7bacd12081/scale_1200" class="card-img-top img-fluid" alt="Portfolio 3">
+                <div class="card-body">
+                    <h5 class="card-title">Портрет Дориана Грея</h5>
+                    <p class="card-text">"Портрет Дориана Грея" – произведение Оскара Уайльда о молодом человеке, чья душа темнеет, пока его портрет стареет и отражает его моральное разложение..</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
